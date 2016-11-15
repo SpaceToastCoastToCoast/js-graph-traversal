@@ -3,7 +3,9 @@
 const Node = require('./graphGenerator');
 
 const BFS = (start) => {
-  let queue = [];
+  let queue = [start];
+
+  return queue.toString();
 }
 
 module.exports = BFS;
