@@ -4,7 +4,7 @@
   "description": "An exercise in traversing graphs in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --bail --watch"
+    "test": "mocha -R nyan --bail --watch"
   },
   "repository": {
     "type": "git",
